@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    background-image: linear-gradient(-25deg,#A73DD1,#634DD1,#03F7B7, #03F7B7);
+    height:70vh;
+    width: 21rem;
+    border-radius: 3%;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 4vh;
+}
+#search input{
+    background: none;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    width: 16em;
+    height: 7vh;
+    padding-left: 1vw;
+    color: rgb(90, 89, 89);
+
+}
+#search input:focus{
+    outline: none;
+}
+/* #search input::placeholder{
+    padding-left: 1vw;
+} */
+#search button{
+    height: 7vh;
+    width: 4em;
+    border: none;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search button:hover{
+    background-color: #FFE269;
+}
+#search button img{
+    height: 40%;
+}
+#weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-icon{
+width: 23vh;
+}
+#temp{
+    color: white;
+    font-family: sans-serif;
+    font-size: 4rem;
+}
+#city-name{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#footer{
+    display: flex;
+    margin-top: 7vh;
+    padding: 1rem;
+}
+#humidity{
+    display: flex;
+    justify-content: center;
+}
+#humidity img{
+    width: 18%;
+    height: 56%;
+}
+#humidity div{
+    color:white;
+    margin-left: 8px;
+}
+#humidity div h3{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+}
+#humidity div h4{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+#wind-speed{
+    display: flex;
+    justify-content: center;
+}
+#wind-speed img{
+    width: 18%;
+    height: 56%;
+}
+#wind-speed div{
+    color:white;
+    margin-left: 8px;
+}
+#wind-speed div h3{
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+}
+#wind-speed div h4{
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+}
+
